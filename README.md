@@ -55,6 +55,7 @@ new AsyncTask<Params, Progress, Result>(){
 ![제네릭 관련 보충 이미지](http://cfile22.uf.tistory.com/image/143C23054B987FDDB74F04)
 
 - 각 메소드 작업 Thread 위치
+
 ![각 메소드 작업 thread](https://camo.githubusercontent.com/236817eb3e63795158deb6e20f66a3e74b65f4ac/687474703a2f2f7777772e6c75636164656e74656c6c612e69742f626c6f672f77702d636f6e74656e742f75706c6f6164732f323031342f30352f6173796e637461736b2e6a7067)
 
 ##### 1.3. AsyncTask와 주로 쓰는 객체
