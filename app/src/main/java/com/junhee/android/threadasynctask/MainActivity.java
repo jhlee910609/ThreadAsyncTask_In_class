@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     // TODO AsyncTask를 한 번만 쓸 경우, AsynTask 로직 안에다가 넣어준다
     ProgressDialog progress;
 
-    // thread에서 호출하기 위한 핸들러
+    // CustomThreadd와 통신하기 위한 핸들러
     Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
+// Thread - Handler를 통한 스레드 간의 통신
 class CustomThread extends Thread {
     Handler handler;
 
