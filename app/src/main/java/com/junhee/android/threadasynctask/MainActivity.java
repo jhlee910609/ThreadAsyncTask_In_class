@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
         }.execute("안녕", "하세요"); // <- doInBackGround를 실행 // 배열처럼 안에 인자들을 꺼내 사용할 수 있음
     }
 
+    // Thread를 쓸 때, 사용하는 메소드
     private void runThread() {
         // progress 창을 띄워줌
         progress.show();
@@ -139,6 +140,7 @@ class CustomThread extends Thread {
         this.handler = handler;
     }
 
+
     @Override
     public void run() {
         try {
@@ -152,4 +154,9 @@ class CustomThread extends Thread {
         }
     }
 }
+
+
+
+
+
 
